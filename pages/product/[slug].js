@@ -65,10 +65,7 @@ const ProductDetails = ({ product, products }) => {
           <div className="buttons">
             <button type="button" className="add-to-cart" onClick={() => onAdd(product,qty)}>
               Add to Cart
-            </button>
-            <button type="button" className="buy-now" onClick="">
-              Buy Now
-            </button>
+            </button>          
           </div>
         </div>
       </div>
